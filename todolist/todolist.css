@@ -1,0 +1,73 @@
+body {
+  background-color: darkblue;
+  margin: 0;
+}
+
+.mainDiv {
+  background-color: lightblue;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  min-height: 200px;
+}
+
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+  color: orangered;
+}
+
+h1 {
+  padding-left: 20px;
+}
+
+.addBtn {
+  margin-right: 20px;
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 19px;
+  color: orangered;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#input {
+  width: 99%;
+  outline: none;
+  border: none;
+}
+
+.showHide {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  font-weight: bold;
+}
+
+.todoLists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todoLists button {
+  background-color: orangered;
+  border: none;
+  margin-top: 5px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.todoLists button:hover {
+  display: inline-block;
+}
